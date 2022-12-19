@@ -9,12 +9,12 @@ $password = $_POST["password"];
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 </head>
 
-<body class="bg-dark">
+<body class="bg-warning">
     <div class="container text-white">
         <div class="text-center my-5">
-            <h1 class="text-primary">PHP Badwords</h1>
+            <h1 class="text-danger"><em>DHL ALLERT!!!</em></h1>
         </div>
-        <div class="my-5">
+        <div class="my-5 text-danger">
             <h2 class="pb-3">Paragrafo: <?php echo $message ?></h2>
             <p>Lunghezza paragrafo: <?php echo strlen($message)?></p>
             <p>Parola da censurare: <?php echo $password ?></p>
